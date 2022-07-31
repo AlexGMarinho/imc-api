@@ -2,9 +2,9 @@ import imcRefeito from './imcRefeito.js';
 
 function retornaCalculoIMC(peso, altura) {
     let imc = peso / (altura * altura);
-    let imcRefeito = imcRefeito(imc);
+    let imcNovo = imcRefeito(imc);
 
-    return imcRefeito;
+    return imcNovo;
 }
 
 function retornaStatusIMC(imc) {
